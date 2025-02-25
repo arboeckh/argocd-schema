@@ -4,5 +4,5 @@ setup(
     name="schema_migration",
     version="0.1",
     packages=find_packages(),
-    install_requires=["sqlalchemy", "alembic"],
+    install_requires=["sqlalchemy", "alembic", "psycopg2"],
 )
