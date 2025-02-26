@@ -7,4 +7,5 @@ class Task(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String, nullable=False)
+    subtitle = Column(String)
     description = Column(String)
