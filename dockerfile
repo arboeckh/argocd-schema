@@ -11,5 +11,5 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Default command to run migrations
-ENTRYPOINT ["alembic"]
-CMD ["upgrade", "head"]
+# ENTRYPOINT ["alembic"]
+# CMD ["upgrade", "head"]
